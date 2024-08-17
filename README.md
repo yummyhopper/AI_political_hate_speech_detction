@@ -1,8 +1,8 @@
 # Prompt Engineering Hate Speech Detection for 2020 Presidential Election
 
+![](presidential_election.jpg)
 
-
-For this project I engineered an prompt to detect hate speech from a study of tweets during the 2020 presidential election using OpenAI's GPT-4 in a python notebook. I created a prompt to classify the tweets along five dimensions: Stance Detection (Favor, Against, Neither, Mixed, Neutral), Hateful (Hateful, Not Hateful), Discrimination Type (General, Sexist, Sexual Harassment, Homophobic, Racist, Transphobic, Ableist, Intellectual, Ageism), Severity (Mild, Moderate, Severe), and Directedness (Implicit, Explicit).
+For this project I engineered an prompt to detect hate speech from a study of tweets during the 2020 presidential election using OpenAI's GPT-4 in a python notebook. I created a prompt to classify the tweets along five dimensions: Stance Detection (Favor, Against, Neither, Mixed, Neutral), Hateful (Hateful, Not Hateful), Discrimination Type (General, Sexist, Sexual Harassment, Homophobic, Racist, Transphobic, Ableist, Intellectual, Ageism), Severity (Mild, Moderate, Severe), and Directedness (Implicit, Explicit). After developing a structured prompt for GPT-4, I tested it on random tweet samples, refining the prompt to improve accuracy. The model's responses were then compared to the original labels, revealing an 80.71% overall similarity. However, challenges arose, such as the complexity of asking the model to handle multiple tasks simultaneously and the difficulty of evaluating its performance. Despite these obstacles, the project highlighted both the potential and limitations of using AI for moderating political discourse.
 
 ### Contents: 
 
@@ -17,3 +17,4 @@ The data from this project was collected from a study in the Association for Com
 - Python
 - OpenAI API
 - Prompt Engineering
+- Content Moderation
