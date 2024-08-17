@@ -1,4 +1,4 @@
-# Prompt Engineering Hate Speech Detection for 2020 Presidential Election
+# Hate Speech Detection for 2020 Presidential Election
 
 ![](8602b86bb2a731dc5421351afe94484d.jpg)
 
