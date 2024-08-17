@@ -6,7 +6,9 @@ For this project I engineered an prompt to detect hate speech from a study of tw
 
 ### Contents: 
 
-- 
+- The analysis folder contains the code used to iterate the prompt through the set of tweets. The raw results from running the program are stored in final_output.csv and the cleaned up and analyzed results are in output.xlsx.
+- The data_source folder contains information about the data and study the data was pulled from. The raw input data is in convabuse.csv.
+- The write-up folder contains a pdf with a two and a half page write up going more into depth about the results of the experiment and challenges that arose. The prompt used for the project is also in that file.
 
 ### Data: 
 
